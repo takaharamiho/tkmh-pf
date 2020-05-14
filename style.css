@@ -1,0 +1,375 @@
+@charset "UTF-8";
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4fr 1fr;
+      grid-template-columns: 4fr 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  max-width: 2000px;
+}
+
+.eibun-font {
+  font-family: "Century Gothic";
+}
+
+.wabun-font {
+  font-family: 'Yu Mincho';
+}
+
+* {
+  color: #333333;
+}
+
+.grid-right {
+  width: 100%;
+  height: 100%;
+}
+
+.sidemenu-area {
+  width: 100%;
+  height: 800px;
+  padding: 40px 0px 0px 35px;
+  background-color: white;
+  position: fixed;
+}
+
+.sidemenu-area img {
+  width: 180px;
+}
+
+.sidemenu-area ul {
+  list-style-type: none;
+  margin: 10px 60px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.sidemenu-area li {
+  margin: 17px 0px;
+}
+
+.sidemenu-area .sns-box {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.sidemenu-area a {
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.top-area {
+  width: 100%;
+  height: 800px;
+}
+
+.top-eyecatch {
+  width: 80%;
+  height: 800px;
+  background-image: url("コーヒーお花お酒2.jpg");
+  background-position: top;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+}
+
+.white-area {
+  width: 100%;
+  height: 1700px;
+  padding-top: 50px;
+}
+
+.white-area .about-container {
+  width: 100%;
+  height: 450px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.white-area .about-container .otete {
+  width: 20%;
+  height: 100%;
+  background-image: url("otete.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.white-area .about-container .about-box {
+  width: 60%;
+  height: 90%;
+  padding: 40px;
+  display: inline-block;
+  border: solid 0.1px lightgray;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.white-area .about-container .about-box h1 {
+  font-family: "Century Gothic";
+  font-weight: lighter;
+  font-size: 30px;
+  display: inline-block;
+  border-bottom: solid 1px;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+}
+
+.white-area .about-container .about-box .about-box-box {
+  position: relative;
+}
+
+.white-area .about-container .about-box .about-box-box .icon {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-image: url("自画像.jpg");
+  background-size: cover;
+  border-radius: 75px;
+}
+
+.white-area .about-container .about-box .about-box-box p {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  margin-left: 25px;
+  font-size: 17px;
+  line-height: 1.5em;
+}
+
+.white-area .skills-container {
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.white-area .skills-container .skills-box {
+  width: 60%;
+  height: 90%;
+  padding: 40px;
+  display: inline-block;
+  border: solid 0.1px lightgray;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  position: relative;
+  margin-left: 20%;
+}
+
+.white-area .skills-container .skills-box h1 {
+  font-family: "Century Gothic";
+  font-weight: lighter;
+  font-size: 30px;
+  display: inline-block;
+  border-bottom: solid 1px;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+}
+
+.white-area .skills-container .skills-box .skills-box-box {
+  position: relative;
+  margin-top: -25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.white-area .skills-container .skills-box .skills-box-box .skill-box {
+  width: 32%;
+  position: relative;
+}
+
+.white-area .skills-container .skills-box .skills-box-box .skill-box .skill-icon1 {
+  width: 100%;
+  height: 180px;
+  margin: 0px auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: url("iconhtmlcss.jpg");
+}
+
+.white-area .skills-container .skills-box .skills-box-box .skill-box .skill-icon2 {
+  width: 100%;
+  height: 180px;
+  margin: 0px auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: url("iconjs.jpg");
+}
+
+.white-area .skills-container .skills-box .skills-box-box .skill-box .skill-icon3 {
+  width: 100%;
+  height: 180px;
+  margin: 0px auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: url("iconruby.jpg");
+}
+
+.white-area .skills-container .skills-box .skills-box-box .skill-box .skill-h2 {
+  font-size: 20px;
+  line-height: 185px;
+}
+
+.white-area .skills-container .skills-box .skills-box-box .skill-box .skill-p {
+  margin-top: 20px;
+  padding: 0px 15px;
+  font-size: 14px;
+  line-height: 1.2em;
+}
+
+.white-area .skills-container .otete {
+  width: 20%;
+  height: 100%;
+  background-image: url("otete2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.white-area .works-container {
+  width: 100%;
+  height: 500px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.white-area .works-container h1 {
+  font-family: "Century Gothic";
+  font-weight: lighter;
+  font-size: 30px;
+  display: inline-block;
+  border-bottom: solid 1px;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+}
+
+.white-area .works-container .works-box {
+  width: 90%;
+  height: 300px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.white-area .works-container .works-box .moya {
+  width: 100%;
+  height: 100%;
+  background-image: url("moya2.jpg");
+  background-size: cover;
+  opacity: 0.15;
+}
+
+.white-area .works-container .works-box .work-box1 {
+  width: 45%;
+  margin-left: 22px;
+  margin-right: 20px;
+  position: relative;
+  background-image: url("Airbnb.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.white-area .works-container .works-box .work-box2 {
+  width: 45%;
+  margin-left: 22px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.white-area .works-container .works-box .explanation {
+  width: 500px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+
+.white-area .works-container .works-box .explanation h3 {
+  font-size: 30px;
+  color: white;
+  font-weight: lighter;
+  line-height: 300px;
+}
+
+.white-area .works-container .works-box .explanation-pop {
+  display: none;
+}
+
+.parallax-area {
+  width: 100%;
+}
+
+.parallax-area .parallax {
+  min-height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  overflow: hidden;
+}
+
+.parallax-area .content {
+  padding: 60px;
+  height: 350px;
+  background-color: white;
+  text-align: center;
+}
+
+.parallax-area .content h1 {
+  font-family: "Century Gothic";
+  font-weight: lighter;
+  font-size: 30px;
+  display: inline-block;
+  border-bottom: solid 1px;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+.parallax-area .content .illusts-p {
+  line-height: 1.4em;
+}
+
+.parallax-area .p-image1 {
+  background-image: url("illusts3.jpg");
+}
+
+.parallax-area .p-image2 {
+  background-image: url("illusts3.jpg");
+}
+
+.parallax-area .contact-area {
+  width: 100%;
+  height: 460px;
+  background-color: rgba(196, 163, 191, 0.3);
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(196, 163, 191, 0.3);
+  text-align: center;
+}
+
+footer h3 {
+  color: white;
+  font-weight: lighter;
+  line-height: 50px;
+}
+/*# sourceMappingURL=style.css.map */
