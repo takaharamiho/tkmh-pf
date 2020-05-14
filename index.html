@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <!-- なんかよう分からんけどつけてみたやつ -->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>tkmh portfolio</title>
+        <!-- リセットCSS -->
+        <link rel="stylesheet" type ="text/css" href="reset-css.css">
+        <!-- 超絶便利なアニメーションCSS -->
+        <link rel="stylesheet" type ="text/css" href="animate.min.css">
+        <!-- 自作のしょーもないCSS -->
+        <link rel="stylesheet" type ="text/css" href="style.css">
+        <!-- フォントオーサム -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+        <!-- グリッド左側でござる。 -->
+        <div class="grid-left">
+
+            <!-- スマホ用のメニューを作るでござる。 -->
+            <nav class="header-menu-area">
+                <div class="header-left">
+                    <a href="#"><img src="MTlogo.jpg"></a>
+                </div>
+                <div class="header-right">
+                    <div class="h-r-btn">
+                        <img class="humberger" src="humberger.png" alt="menu-icon">
+                        <i class="fas fa-times fa-3x batu nainai-ver2"></i>
+                    </div>
+                    <nav class="h-r-menu nainai-ver2">
+                        <ul class="eibun-font h-r-menu-ul">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#works">Works</a></li>
+                            <li><a href="#illustrations">Illustrations</a></li>
+                            <li><a href="#contacts">contact</a></li>
+                        </ul>
+                        <!-- SNSリンクアイコンを格納するdivでありんす。 -->
+                        <div class="sns-box">
+                            <a href="#" class="fab fa-twitter fa-lg animate__animated"></a>
+                            <a href="#" class="fab fa-instagram fa-lg animate__animated"></a>
+                            <a href="#" class="fab fa-facebook-f fa-lg animate__animated"></a>
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+
+            <!-- ビデオとか写真とか入れるトップエリアを作るでござる。 -->
+            <div class="top-area">
+                <!-- <video id="video" src="くるくるおばさん.mp4" height="800px" width="100%" autoplay muted ></video> -->
+                <!-- ちょっともうビデオに関してはいったん退くわ -->
+
+                <!-- トップエリアと同じ大きさのdivに背景imgを設定し、平常時はnoneにしておくでありんす。再生終了後に出現でありんす。 -->
+                <div class="top-eyecatch"></div>
+            </div>
+
+            <!-- About,Skills,Worksを入れる白背景エリアを作るでござる。 -->
+            <div class="white-area">
+
+                <!-- Aboutコンテナでありんす。 -->
+                <div class="about-container nainai animate__animated" id="about">
+                    <div class="otete"></div>
+                    <div class="about-box">
+                        <h1 class="eibun-font">About</h1><br>
+                        <div class="about-box-box">
+                            <div class="icon">
+                                <!-- <img src="自画像.jpg" alt="顔写真" width="100%"> -->
+                            </div>
+                            <p class="wabun-font profile">
+                                高森美帆 ｜ 25歳<br><br>
+                                大学を卒業したのちJICA隊員として中国武漢へ派遣。<br>
+                                帰国後、フリーランスのWebエンジニアとして活動を始め、現在に至る。<br>
+                                TOEIC860/HSK6級を目指して語学をゆるっと勉強中。<br>
+                                スキーとレゲエと恐竜と読書が好き。絵を描くのも好き。<br>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Skillsコンテナでありんす。 -->
+                <div class="skills-container nainai animate__animated" id="skills">
+                    <div class="skills-box">
+                        <h1 class="eibun-font">Skills</h1><br>
+                        <!-- ↓こいつにflexをかけて、子要素を横並びにしてやるぞ -->
+                        <div class="skills-box-box">
+
+                            <div class="skill-box">
+                                <div class="skill-icon1">
+                                    <h2 class="eibun-font skill-h2">HTML & CSS</h2>
+                                </div>
+                                <p class="wabun-font skill-p">描いたイメージをそのまま再現。おしゃれなサイトをレスポンシブデザインで提供します。内部SEO対策もお任せください。</p>
+                            </div>
+
+                            <div class="skill-box">
+                                <div class="skill-icon2">
+                                    <h2 class="eibun-font skill-h2">JavaScript</h2>
+                                </div>
+                                <p class="wabun-font skill-p">jQueryも活用して、動きのあるサイトを制作します。UI/UXを最大限考慮し、他とは一味ちがったサイトを提供します。</p>
+                            </div>
+
+                            <div class="skill-box">
+                                <div class="skill-icon3">
+                                    <h2 class="eibun-font skill-h2">comingsoon...</h2>
+                                </div>
+                                <p class="wabun-font skill-p">comingsoon...</p>
+                            </div>
+                                
+                            </p>
+                        </div>
+                    </div>
+                    <div class="otete"></div>
+                </div>
+
+
+                <!-- Worksコンテナでありんす。 -->
+                <div class="works-container" id="works">
+                    <h1 class="eibun-font">Works</h1>
+                    <div class="works-box">
+
+                        <div class="work-box work-box1">
+                            <div class="moya"></div>
+                            <div class="explanation explanation-pop">
+                                <h3 class=".eibun-font explanation-h3">Airbnb模写</h3>
+                            </div>
+                        </div>
+
+                        <div class="work-box work-box2">
+                            <div class="moya"></div>
+                            <div class="explanation explanation-pop">
+                                <h3 class=".eibun-font explanation-h3">comingsoon...</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+
+            <!-- Illustを入れるパララックスエリアを作るでござる。 -->
+            <div class="parallax-area" id="illustrations">
+                <div class="parallax p-image1"></div>
+                <div class="content">
+                    <h1 class="eibun-font">Illustrations</h1>
+                    <p class="wabun-font illusts-p">
+                        「○○っぽいイラスト」が得意。<br>
+                        基本的にはスマホに指で絵を描いていますが、<br>
+                        illustrator/photoshopも使えます。<br>
+                        あなたの中にある「こんな感じのイラスト」を<br>
+                        具現化することもできます。
+                    </p>
+                </div>
+                <div class="parallax p-image2"></div>
+                <!-- 最後にコンタクトエリアでござる。 -->
+                <div class="content contact-area" id="contacts">
+                    <h1 class="eibun-font">contact</h1>
+                    <p class="wabun-font">
+                        <br><br>
+                        　お仕事のご依頼・ご相談や、お仕事と全然関係ない雑談などなど、何でもお待ちしております。<br>
+                        <br><br><br>
+                        ＼　 DM me on Twitter　／<br><br>
+                        <a href="" class="fab fa-twitter fa-3x animate__animated"></a>
+                    </p>
+                </div>
+            </div>
+
+            <footer>
+                <h3>©2020 MihoTakamori</h3>
+            </footer>
+        
+        </div>
+            
+
+        <!-- ここよりグリッド右側にござる。 -->
+        <div class="grid-right">
+            <nav class="sidemenu-area">
+                <a href="#"><img src="MTlogo.jpg"></a>
+                <ul class="eibun-font menu-ul">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#illustrations">Illustrations</a></li>
+                    <li><a href="#contacts">contact</a></li>
+                </ul>
+                <!-- SNSリンクアイコンを格納するdivでありんす。 -->
+                <div class="sns-box">
+                    <a href="#" class="fab fa-twitter fa-lg animate__animated"></a>
+                    <a href="#" class="fab fa-instagram fa-lg animate__animated"></a>
+                    <a href="#" class="fab fa-facebook-f fa-lg animate__animated"></a>
+                </div>
+            </nav>
+        </div>
+
+    <!-- jQueryのファイル読み込みタグは最後に置いとけっておばあちゃんが言ってた -->
+    <script type="text/JavaScript" src="jquery-3.5.1.min.js"></script>
+    <script type="text/JavaScript" src="portfolio.js"></script>
+    <script>
+        if(navigator.userAgent.match(/MSIE 10/i) || navigator.userAgent.match(/Edge\/12\./) || navigator.userAgent.match(/chrome/)) {
+        $('body').on("mousewheel", function () {
+        event.preventDefault();
+        var wd = event.wheelDelta;
+        var csp = window.pageYOffset;
+        window.scrollTo(0, csp - wd);
+        });
+        }
+       </script>
+    </body>
+</html>
